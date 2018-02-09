@@ -241,7 +241,7 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
   .container {
-    width: auto;
+    width: 100%;
     float: left;
   }
   .sidebar {
@@ -255,6 +255,9 @@ input[type=submit] {
     float: none;
     width: auto;
     margin: 0 50px 0 50px;
+  }
+  .work:nth-child(even) {
+  margin-right: 300px;
   }
 
   nav  {
@@ -277,10 +280,7 @@ input[type=submit] {
   nav {
     float: left;
   }
-   .container {
-    width: auto;
-    float: left;
-  }
+
   input {
     width:95%;
     padding:10px;
@@ -292,6 +292,7 @@ input[type=submit] {
   input[type=submit] {
     width:25%;
   }
+
 }
 
 @media screen and (max-width: 640px) {
